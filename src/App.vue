@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <router-link :to="{ path: '/hi' }">링크</router-link>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
